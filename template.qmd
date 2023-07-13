@@ -1,5 +1,5 @@
 ---
-title: R for the Rest of Us Slides Template
+title: R for the Rest of Us Slide Template
 format:
   rfortherestofus-slides-revealjs:
     menu: false
