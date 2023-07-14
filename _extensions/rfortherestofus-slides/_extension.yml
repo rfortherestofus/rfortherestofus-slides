@@ -6,5 +6,4 @@ contributes:
   formats:
     revealjs:
       theme: [dark, custom.scss]
-      logo: logo.svg
 
