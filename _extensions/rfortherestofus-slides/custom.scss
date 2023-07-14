@@ -39,7 +39,7 @@ $title-h1-font-size: 100px !default;
 
 // --------------------- //
 @mixin bodyBackground() {
-  background-image: "assets/rru-hex-bg-gradient-light.svg";
+  background-image: url("assets/rru-hex-bg-gradient-light.svg");
   background-size: cover;
   background-color: $body-bg;
 }
@@ -76,7 +76,7 @@ h3.title {
 
   .slide-background-content {
     background-color: $body-color;
-    background-image: "../../assets/rru-hex-bg-gradient-light.svg";
+    background-image: url("assets/rru-hex-bg-gradient-light.svg");
   }
 
   h1,
@@ -104,7 +104,7 @@ h3.title {
 
   .slide-background-content {
     background-color: $body-bg-orange;
-    background-image: "../../assets/rru-hex-bg-gradient-light.svg";
+    background-image: url("assets/rru-hex-bg-gradient-light.svg");
   }
 
   h1,
@@ -120,7 +120,7 @@ h3.title {
   
     .slide-background-content {
       background-color: $body-blue;
-      background-image: "../../assets/rru-hex-bg-gradient-light.svg";
+      background-image: url("assets/rru-hex-bg-gradient-light.svg");
     }
   
     h1,
