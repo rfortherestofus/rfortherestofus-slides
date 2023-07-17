@@ -25,13 +25,13 @@ $code-color: #404e6b !default;
 $body-blue: #6cabdd;
 
 // body
-$presentation-font-size-root: 32px !default;
-$presentation-line-height: 1.25 !default;
+$presentation-font-size-root: 44px !default;
+$presentation-line-height: 1.15 !default;
 
 // headings
-$presentation-h1-font-size: 55px !default;
-$presentation-h2-font-size: 50px !default;
-$presentation-h3-font-size: 40px !default;
+$presentation-h1-font-size: 80px !default;
+$presentation-h2-font-size: 64px !default;
+$presentation-h3-font-size: 48px !default;
 $middle-h1-font-size: 95px !default;
 $title-h1-font-size: 100px !default;
 
@@ -124,9 +124,11 @@ h3.title {
   }
 
   h1,
-  h2,
-  h3 {
+  h2 {
     color: $body-bg;
+    line-height: 1;
+    letter-spacing: -2px;
+    font-size: $title-h1-font-size;
   }
 }
 
