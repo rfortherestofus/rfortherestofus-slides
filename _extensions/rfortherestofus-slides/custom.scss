@@ -39,7 +39,7 @@ $title-h1-font-size: 100px !default;
 
 // --------------------- //
 @mixin bodyBackground() {
-  background-image: url("assets/rru-hex-bg-gradient-light.svg");
+  background-image: url("https://raw.githubusercontent.com/rfortherestofus/rfortherestofus-slides/main/assets/rru-hex-bg-gradient-light.svg");
   background-size: cover;
   background-color: $body-bg;
 }
@@ -76,7 +76,7 @@ h3.title {
 
   .slide-background-content {
     background-color: $body-color;
-    background-image: url("assets/rru-hex-bg-gradient-light.svg");
+    background-image: url("https://raw.githubusercontent.com/rfortherestofus/rfortherestofus-slides/main/assets/rru-hex-bg-gradient-dark.svg");
   }
 
   h1,
@@ -104,7 +104,7 @@ h3.title {
 
   .slide-background-content {
     background-color: $body-bg-orange;
-    background-image: url("assets/rru-hex-bg-gradient-light.svg");
+    background-image: url("https://raw.githubusercontent.com/rfortherestofus/rfortherestofus-slides/main/assets/rru-hex-bg-gradient-light.svg");
   }
 
   h1,
@@ -116,19 +116,19 @@ h3.title {
 
 // your turn slides
 .your-turn {
-    color: $body-bg;
-  
-    .slide-background-content {
-      background-color: $body-blue;
-      background-image: url("assets/rru-hex-bg-gradient-light.svg");
-    }
-  
-    h1,
-    h2,
-    h3 {
-      color: $body-bg;
-    }
+  color: $body-bg;
+
+  .slide-background-content {
+    background-color: $body-blue;
+    background-image: url("https://raw.githubusercontent.com/rfortherestofus/rfortherestofus-slides/main/assets/rru-hex-bg-gradient-white.svg");
   }
+
+  h1,
+  h2,
+  h3 {
+    color: $body-bg;
+  }
+}
 
 // custom rules
 .xl {
