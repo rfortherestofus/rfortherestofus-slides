@@ -35,6 +35,9 @@ $presentation-h3-font-size: 48px !default;
 $middle-h1-font-size: 95px !default;
 $title-h1-font-size: 100px !default;
 
+// code blocks
+$code-block-bg: #F3F4F6;
+
 /*-- scss:mixins --*/
 
 // --------------------- //
@@ -128,8 +131,27 @@ h3.title {
     color: $body-bg;
     line-height: 1;
     letter-spacing: -2px;
-    font-size: $title-h1-font-size;
   }
+
+  a,
+  a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+
+  ul {
+    margin-left: 0.3em;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  code {
+    color: #ffffff;
+  }
+
 }
 
 // custom rules
@@ -153,6 +175,7 @@ a,
 a > code {
   color: #6cabdd;
   text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 .error-text {
@@ -167,4 +190,9 @@ a > code {
 .reveal p,
 .reveal li {
   font-weight: 300;
+}
+
+.reveal li {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
