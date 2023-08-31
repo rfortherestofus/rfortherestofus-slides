@@ -1,4 +1,4 @@
-# <%= title %> Format
+# R for the Rest of Us Slides
 
 ## Installing
 
