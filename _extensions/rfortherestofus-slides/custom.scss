@@ -1,7 +1,6 @@
 /*-- scss:defaults --*/
 
 @import url("https://rsms.me/inter/inter.css");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 
 html {
   font-family: "Inter", sans-serif;
@@ -15,7 +14,7 @@ html {
 
 // fonts
 $font-family-sans-serif: "Inter";
-$font-family-monospace: "IBM Plex Mono", mono;
+
 
 // main colors
 $body-bg: #fff !default;
@@ -23,6 +22,7 @@ $body-bg-orange: #ff7400 !default;
 $body-color: #404e6b !default;
 $code-color: #404e6b !default;
 $body-blue: #6cabdd;
+$link-color: #6cabdd;
 
 // body
 $presentation-font-size-root: 44px !default;
@@ -37,6 +37,7 @@ $title-h1-font-size: 100px !default;
 
 // code blocks
 $code-block-bg: #F3F4F6;
+
 
 /*-- scss:mixins --*/
 
@@ -83,7 +84,8 @@ h3.title {
   }
 
   h1,
-  h2 {
+  h2,
+  h1 > code {
     color: $body-bg;
     line-height: 1;
     letter-spacing: -2px;
