@@ -3,7 +3,7 @@ title: R for the Rest of Us Slide Template
 format:
   rfortherestofus-slides-revealjs:
     menu: false
-    progress: true
+    progress: false
     slide-number: true
     show-slide-number: print
     center: true
