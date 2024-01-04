@@ -30,5 +30,5 @@ You can learn more about controlling the appearance of RevealJS output here: <ht
 
 ## My Turn {.my-turn}
 
-## Your Turn {.your-turn}
+# Your Turn {.your-turn .center-slide}
 
