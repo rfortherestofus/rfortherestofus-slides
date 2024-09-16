@@ -9,6 +9,7 @@ format:
     center: true
     incremental: true
     auto-animate: true
+    slide-level: 3
 execute: 
   message: false
   warning: false
